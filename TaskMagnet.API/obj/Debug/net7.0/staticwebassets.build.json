@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QHujBjtj0EhvcVKPvjCGjERoufXTtaxw9JQr3n3IbNg=",
+  "Source": "TaskMagnet.API",
+  "BasePath": "_content/TaskMagnet.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
