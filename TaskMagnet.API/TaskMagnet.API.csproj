@@ -19,5 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaskMagnet.Infrastructure.Database\TaskMagnet.Infrastructure.Database.csproj" />
+    <ProjectReference Include="..\TaskMagnet.Core.Services\TaskMagnet.Core.Services.csproj" />
   </ItemGroup>
 </Project>

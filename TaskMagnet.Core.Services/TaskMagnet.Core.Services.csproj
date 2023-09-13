@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskMagnet.Common.Shared\TaskMagnet.Common.Shared.csproj" />
+    <ProjectReference Include="..\TaskMagnet.Infrastructure.Database\TaskMagnet.Infrastructure.Database.csproj" />
+    <ProjectReference Include="..\TaskMagnet.Core.Domain\TaskMagnet.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

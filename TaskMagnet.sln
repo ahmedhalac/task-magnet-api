@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMagnet.Infrastructure.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMagnet.Core.Domain", "TaskMagnet.Core.Domain\TaskMagnet.Core.Domain.csproj", "{E15BF6B0-3EA7-44ED-AB85-303190CD0614}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMagnet.Core.Services", "TaskMagnet.Core.Services\TaskMagnet.Core.Services.csproj", "{43096526-D7F1-4B75-88DA-E9EB320DDE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMagnet.Common.Shared", "TaskMagnet.Common.Shared\TaskMagnet.Common.Shared.csproj", "{2F3BA4E0-40AD-4685-9017-A408C557CF93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{E15BF6B0-3EA7-44ED-AB85-303190CD0614}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E15BF6B0-3EA7-44ED-AB85-303190CD0614}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E15BF6B0-3EA7-44ED-AB85-303190CD0614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43096526-D7F1-4B75-88DA-E9EB320DDE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43096526-D7F1-4B75-88DA-E9EB320DDE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43096526-D7F1-4B75-88DA-E9EB320DDE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43096526-D7F1-4B75-88DA-E9EB320DDE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3BA4E0-40AD-4685-9017-A408C557CF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3BA4E0-40AD-4685-9017-A408C557CF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3BA4E0-40AD-4685-9017-A408C557CF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3BA4E0-40AD-4685-9017-A408C557CF93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
