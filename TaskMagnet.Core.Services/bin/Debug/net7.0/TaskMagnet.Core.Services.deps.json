@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "TaskMagnet.Core.Services/1.0.0": {
         "dependencies": {
+          "TaskMagnet.Common.Dtos": "1.0.0",
           "TaskMagnet.Common.Shared": "1.0.0",
           "TaskMagnet.Core.Domain": "1.0.0",
           "TaskMagnet.Infrastructure.Database": "1.0.0"
@@ -665,6 +666,11 @@
           }
         }
       },
+      "TaskMagnet.Common.Dtos/1.0.0": {
+        "runtime": {
+          "TaskMagnet.Common.Dtos.dll": {}
+        }
+      },
       "TaskMagnet.Common.Shared/1.0.0": {
         "runtime": {
           "TaskMagnet.Common.Shared.dll": {}
@@ -1158,6 +1164,11 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "TaskMagnet.Common.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "TaskMagnet.Common.Shared/1.0.0": {
       "type": "project",

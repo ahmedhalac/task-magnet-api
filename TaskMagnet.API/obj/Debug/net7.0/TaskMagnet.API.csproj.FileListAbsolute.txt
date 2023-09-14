@@ -88,3 +88,5 @@
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Core.Services.dll
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Core.Services.pdb
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Common.Shared.pdb
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Common.Dtos.dll
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Common.Dtos.pdb

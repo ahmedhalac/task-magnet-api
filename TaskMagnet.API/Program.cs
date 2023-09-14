@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TaskMagnet.API.Constants;
 using TaskMagnet.Core.Domain.Entities;
+using TaskMagnet.Core.Services;
+using TaskMagnet.Core.Services.Interfaces;
 using TaskMagnet.Infrastructure.Database;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,8 +17,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TaskMagnetDBContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString(Config.CONNECTION_STRING)));
 
-builder.Services.AddIdentity<User, IdentityRole>()
-    .AddEntityFrameworkStores<TaskMagnetDBContext>();
+builder.Services.AddIdentity<User, IdentityRole<long>>(options => {
+    options.Password.RequiredLength = 5;
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+}).AddEntityFrameworkStores<TaskMagnetDBContext>();
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

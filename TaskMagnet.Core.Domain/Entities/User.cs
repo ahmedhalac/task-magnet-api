@@ -2,7 +2,7 @@
 
 namespace TaskMagnet.Core.Domain.Entities;
 
-public class User : IdentityUser
+public class User : IdentityUser<long>
 {
     public string FirstName { get; set; }
     public string LastName { get; set;}

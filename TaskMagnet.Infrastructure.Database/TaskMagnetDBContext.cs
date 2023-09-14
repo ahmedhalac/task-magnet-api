@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using TaskMagnet.Core.Domain.Entities;
 
 namespace TaskMagnet.Infrastructure.Database;
 
-public class TaskMagnetDBContext : IdentityDbContext<User>
+public class TaskMagnetDBContext : IdentityDbContext<User, IdentityRole<long>, long>
 {
     public TaskMagnetDBContext(DbContextOptions options) : base(options)
     {
