@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskMagnet.Core.Services.Interfaces;
 using TaskMagnet.Common.Dtos.Users;
-using Microsoft.AspNetCore.Authorization;
 
-namespace TaskMagnet.API;
+namespace TaskMagnet.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
