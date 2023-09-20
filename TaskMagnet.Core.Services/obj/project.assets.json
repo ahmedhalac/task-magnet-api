@@ -1143,6 +1143,16 @@
           "bin/placeholder/TaskMagnet.Core.Domain.dll": {}
         }
       },
+      "TaskMagnet.Infrastructure.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TaskMagnet.Infrastructure.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskMagnet.Infrastructure.Common.dll": {}
+        }
+      },
       "TaskMagnet.Infrastructure.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3409,6 +3419,11 @@
       "path": "../TaskMagnet.Core.Domain/TaskMagnet.Core.Domain.csproj",
       "msbuildProject": "../TaskMagnet.Core.Domain/TaskMagnet.Core.Domain.csproj"
     },
+    "TaskMagnet.Infrastructure.Common/1.0.0": {
+      "type": "project",
+      "path": "../TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj",
+      "msbuildProject": "../TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj"
+    },
     "TaskMagnet.Infrastructure.Database/1.0.0": {
       "type": "project",
       "path": "../TaskMagnet.Infrastructure.Database/TaskMagnet.Infrastructure.Database.csproj",
@@ -3420,6 +3435,7 @@
       "TaskMagnet.Common.Dtos >= 1.0.0",
       "TaskMagnet.Common.Shared >= 1.0.0",
       "TaskMagnet.Core.Domain >= 1.0.0",
+      "TaskMagnet.Infrastructure.Common >= 1.0.0",
       "TaskMagnet.Infrastructure.Database >= 1.0.0"
     ]
   },
@@ -3456,6 +3472,9 @@
             },
             "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Core.Domain/TaskMagnet.Core.Domain.csproj": {
               "projectPath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Core.Domain/TaskMagnet.Core.Domain.csproj"
+            },
+            "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj": {
+              "projectPath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj"
             },
             "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Database/TaskMagnet.Infrastructure.Database.csproj": {
               "projectPath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Database/TaskMagnet.Infrastructure.Database.csproj"

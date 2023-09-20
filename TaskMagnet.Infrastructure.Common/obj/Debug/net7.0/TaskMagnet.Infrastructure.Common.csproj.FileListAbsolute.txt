@@ -1,0 +1,12 @@
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/bin/Debug/net7.0/TaskMagnet.Infrastructure.Common.deps.json
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/bin/Debug/net7.0/TaskMagnet.Infrastructure.Common.dll
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/bin/Debug/net7.0/TaskMagnet.Infrastructure.Common.pdb
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/TaskMagnet.Infrastructure.Common.csproj.AssemblyReference.cache
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/TaskMagnet.Infrastructure.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/TaskMagnet.Infrastructure.Common.AssemblyInfoInputs.cache
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/TaskMagnet.Infrastructure.Common.AssemblyInfo.cs
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/TaskMagnet.Infrastructure.Common.csproj.CoreCompileInputs.cache
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/TaskMagnet.Infrastructure.Common.dll
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/refint/TaskMagnet.Infrastructure.Common.dll
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/TaskMagnet.Infrastructure.Common.pdb
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/Debug/net7.0/ref/TaskMagnet.Infrastructure.Common.dll

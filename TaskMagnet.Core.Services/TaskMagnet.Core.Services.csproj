@@ -5,6 +5,7 @@
     <ProjectReference Include="..\TaskMagnet.Infrastructure.Database\TaskMagnet.Infrastructure.Database.csproj" />
     <ProjectReference Include="..\TaskMagnet.Core.Domain\TaskMagnet.Core.Domain.csproj" />
     <ProjectReference Include="..\TaskMagnet.Common.Dtos\TaskMagnet.Common.Dtos.csproj" />
+    <ProjectReference Include="..\TaskMagnet.Infrastructure.Common\TaskMagnet.Infrastructure.Common.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

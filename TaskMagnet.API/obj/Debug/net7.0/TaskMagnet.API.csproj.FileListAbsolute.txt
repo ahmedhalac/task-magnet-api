@@ -90,3 +90,6 @@
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Common.Shared.pdb
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Common.Dtos.dll
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Common.Dtos.pdb
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Infrastructure.Common.dll
+/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.API/bin/Debug/net7.0/TaskMagnet.Infrastructure.Common.pdb
