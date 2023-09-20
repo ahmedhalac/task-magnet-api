@@ -1,4 +1,5 @@
-﻿using System.Security.Claims;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -58,14 +59,26 @@ public class AuthService : IAuthService
         throw new NotImplementedException();
     }
 
-    // private (string Token, long ExpiresIn) GenerateJwt(User user)
-    // {
-    //     var claims = new List<Claim> 
-    //     {
-    //         new Claim(ClaimTypes.Name, user.UserName),
-    //         new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
-    //     };
+    private (string Token, long ExpiresIn) GenerateJwt(User user)
+    {
+        var claims = new List<Claim> 
+        {
+            new(ClaimTypes.Name, user.UserName),
+            new(ClaimTypes.NameIdentifier, user.Id.ToString())
+        };
 
-    //     var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtConfiguration.Secret))
-    // }
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtConfiguration.Secret));
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+        var expires = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_jwtConfiguration.ExpirationAccessTokenInMinutes));
+
+        var token = new JwtSecurityToken(
+            issuer: _jwtConfiguration.Issuer,
+            audience: _jwtConfiguration.Issuer,
+            claims,
+            expires: expires,
+            signingCredentials: creds
+        );
+
+        return (new JwtSecurityTokenHandler().WriteToken(token), new DateTimeOffset(expires).ToUnixTimeSeconds());
+    }
 }

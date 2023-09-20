@@ -1,10 +1,6 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TaskMagnet.API.Constants;
 using TaskMagnet.API.Extensions;
-using TaskMagnet.Core.Domain.Entities;
-using TaskMagnet.Core.Services;
-using TaskMagnet.Core.Services.Interfaces;
 using TaskMagnet.Infrastructure.Database;
 
 var builder = WebApplication.CreateBuilder(args);
