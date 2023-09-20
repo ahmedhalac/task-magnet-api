@@ -13,7 +13,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(setupAction => 
+{
+    setupAction.SwaggerDoc(
+        "TaskMagnetOpenAPISpecification",
+        new Microsoft.OpenApi.Models.OpenApiInfo()
+        {
+            Title = "TaskMagnet API",
+            Version = "1"
+        });
+});
 
 builder.Services.AddDbContext<TaskMagnetDBContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString(Config.CONNECTION_STRING)));
@@ -27,7 +37,12 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(setupAction => 
+    {
+        setupAction.SwaggerEndpoint(
+            "/swagger/TaskMagnetOpenAPISpecification/swagger.json",
+            "TaskMagnet API");
+    });
 }
 
 app.UseCors(policy => policy
