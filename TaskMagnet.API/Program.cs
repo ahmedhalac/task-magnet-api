@@ -22,7 +22,12 @@ builder.Services.AddSwaggerGen(setupAction =>
 });
 
 builder.Services.AddDbContext<TaskMagnetDBContext>(opt =>
-    opt.UseSqlServer(builder.Configuration.GetConnectionString(Config.CONNECTION_STRING)));
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString(Config.CONNECTION_STRING));
+    // logging info details
+    opt.UseLoggerFactory(LoggerFactory.Create(builder => builder.AddConsole()));
+    opt.EnableSensitiveDataLogging();
+});
 
 // Dependency injection. 
 builder.Services.AddDependecyInjection(builder.Configuration);

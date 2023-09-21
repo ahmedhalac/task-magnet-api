@@ -48,5 +48,6 @@ public static class DependencyInjectionExtension
         
         // Services DI.
         services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IAuthService, AuthService>();
     }
 }

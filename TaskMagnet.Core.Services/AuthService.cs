@@ -8,6 +8,7 @@ using TaskMagnet.Common.Dtos;
 using TaskMagnet.Common.Shared;
 using TaskMagnet.Core.Domain.Entities;
 using TaskMagnet.Infrastructure.Common.Configurations;
+using TaskMagnet.Infrastructure.Database;
 
 namespace TaskMagnet.Core.Services;
 
@@ -15,10 +16,13 @@ public class AuthService : IAuthService
 {
     private readonly UserManager<User> _userManager;
     private JwtConfiguration _jwtConfiguration { get; set; }
-    public AuthService(UserManager<User> userManager, JwtConfiguration jwtConfiguration) 
+    private TaskMagnetDBContext _dbContext { get; set; }
+
+    public AuthService(UserManager<User> userManager, JwtConfiguration jwtConfiguration, TaskMagnetDBContext dbContext) 
     {
         _userManager = userManager;
         _jwtConfiguration = jwtConfiguration;
+        _dbContext = dbContext;
     }
 
     public async Task<Message> Login(LoginDto loginDto)
@@ -37,16 +41,30 @@ public class AuthService : IAuthService
 
         var userSignInResult = await _userManager.CheckPasswordAsync(user, loginDto.Password);
 
-        // if(userSignInResult) 
-        // {
-        //     (string accessToken, long expiresIn) = GenerateJwt(user);
-        // }
-         return new Message
+        if(userSignInResult) 
+        {
+            (string accessToken, long expiresIn) = GenerateJwt(user);
+            
+            await _dbContext.SaveChangesAsync();
+            
+            return new Message
             {
-                Info = "Forbidden",
-                IsValid = false,
-                Status = ExceptionCodeEnum.Forbidden
+                Info = "Success",
+                IsValid = true,
+                Status = ExceptionCodeEnum.Success,
+                Data = new {
+                    Token = accessToken,
+                    ExpiresIn = expiresIn
+                }
             };
+        }
+
+        return new Message
+        {
+            Info = "Forbidden",
+            IsValid = false,
+            Status = ExceptionCodeEnum.Forbidden
+        };
     }
 
     public Task<Message> LogoutAsycn(User user)
