@@ -7,6 +7,4 @@ namespace TaskMagnet.Core.Services;
 public interface IAuthService
 {
     Task<Message> Login(LoginDto loginDto);
-    Task<Message> RefreshToken(string token);
-    Task<Message> LogoutAsycn(User user);
 }

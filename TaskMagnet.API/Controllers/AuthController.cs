@@ -24,7 +24,6 @@ public class AuthController : ControllerBase
 
         if(message.Status != Common.Shared.ExceptionCodeEnum.Success)
             return BadRequest(message);
-
         return Ok(message.Data);
     }
 }

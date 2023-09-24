@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Azure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -65,16 +66,6 @@ public class AuthService : IAuthService
             IsValid = false,
             Status = ExceptionCodeEnum.Forbidden
         };
-    }
-
-    public Task<Message> LogoutAsycn(User user)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<Message> RefreshToken(string token)
-    {
-        throw new NotImplementedException();
     }
 
     private (string Token, long ExpiresIn) GenerateJwt(User user)
