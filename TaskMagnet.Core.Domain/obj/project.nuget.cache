@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OtyYmZmiTQrx5OeG5SWZdl6FixDa7SJcnuAUNI40eSRDEwbs1cUPTzZXtgpLjvZ570lB42BnkZZbRLNd1uaxQw==",
+  "dgSpecHash": "bEBvFzDPeJ58EambefiNir3w6g3iAHKfZCHujSTvPMl6laDDplbpNMj68FcRf2CQHEMcIbgW8NtrKoKpWy+Mzg==",
   "success": true,
-  "projectFilePath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Core.Domain/TaskMagnet.Core.Domain.csproj",
+  "projectFilePath": "/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/TaskMagnet.Core.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/ahmedhalac/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.11/microsoft.aspnetcore.cryptography.internal.7.0.11.nupkg.sha512",
     "/Users/ahmedhalac/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.11/microsoft.aspnetcore.cryptography.keyderivation.7.0.11.nupkg.sha512",

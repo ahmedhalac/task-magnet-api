@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj",
+      "projectUniqueName": "/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj",
       "projectName": "TaskMagnet.Infrastructure.Common",
-      "projectPath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj",
+      "projectPath": "/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Infrastructure.Common/TaskMagnet.Infrastructure.Common.csproj",
       "packagesPath": "/Users/ahmedhalac/.nuget/packages/",
-      "outputPath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/",
+      "outputPath": "/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Infrastructure.Common/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ahmedhalac/.nuget/NuGet/NuGet.Config"

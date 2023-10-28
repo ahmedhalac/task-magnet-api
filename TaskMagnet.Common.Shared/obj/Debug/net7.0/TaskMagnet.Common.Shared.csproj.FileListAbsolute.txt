@@ -10,3 +10,15 @@
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/refint/TaskMagnet.Common.Shared.dll
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.pdb
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/ref/TaskMagnet.Common.Shared.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/bin/Debug/net7.0/TaskMagnet.Common.Shared.deps.json
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/bin/Debug/net7.0/TaskMagnet.Common.Shared.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/bin/Debug/net7.0/TaskMagnet.Common.Shared.pdb
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.csproj.AssemblyReference.cache
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.AssemblyInfoInputs.cache
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.AssemblyInfo.cs
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.csproj.CoreCompileInputs.cache
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/refint/TaskMagnet.Common.Shared.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/TaskMagnet.Common.Shared.pdb
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Shared/obj/Debug/net7.0/ref/TaskMagnet.Common.Shared.dll

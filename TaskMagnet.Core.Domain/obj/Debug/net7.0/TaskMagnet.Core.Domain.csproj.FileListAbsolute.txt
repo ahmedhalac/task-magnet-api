@@ -10,3 +10,15 @@
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/refint/TaskMagnet.Core.Domain.dll
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.pdb
 /Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/ref/TaskMagnet.Core.Domain.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/bin/Debug/net7.0/TaskMagnet.Core.Domain.deps.json
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/bin/Debug/net7.0/TaskMagnet.Core.Domain.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/bin/Debug/net7.0/TaskMagnet.Core.Domain.pdb
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.csproj.AssemblyReference.cache
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.AssemblyInfoInputs.cache
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.AssemblyInfo.cs
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.csproj.CoreCompileInputs.cache
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/refint/TaskMagnet.Core.Domain.dll
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/TaskMagnet.Core.Domain.pdb
+/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Domain/obj/Debug/net7.0/ref/TaskMagnet.Core.Domain.dll

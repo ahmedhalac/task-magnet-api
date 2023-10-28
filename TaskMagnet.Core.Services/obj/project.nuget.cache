@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QRyILjmzNVo5ymCPAD2cNA5oQBnbXGjnNgI6dJA6hzqctnqU686NCvvjBb4APKmg8JvAJAGWz/9I8TNvxKBPcg==",
+  "dgSpecHash": "n20wZ6F1dhsGYfpYP8GKXdL6FiIlyobQ5FIUBZzIg8OaU4cBNwgYjgPTOKYTzI6lDfzo0iHWqkrgW34rzdriZQ==",
   "success": true,
-  "projectFilePath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Core.Services/TaskMagnet.Core.Services.csproj",
+  "projectFilePath": "/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Core.Services/TaskMagnet.Core.Services.csproj",
   "expectedPackageFiles": [
     "/Users/ahmedhalac/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/ahmedhalac/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z4g+3yXgK0soO2NSkIVdyeuPUD9mfow2I7LwJfP2Z5kLZ2WqIq7pkjnPSCmOn6EMidIW2I5x0zA0mAkmU8qUPA==",
+  "dgSpecHash": "ggVqVpLDmCjO7Kt5XZwQv+g9/3mtmrvDkY+EijtrwbHVMXuuP7BGaudvHSZZih1DBxFNTL3vapXvsS1+IXqYvQ==",
   "success": true,
-  "projectFilePath": "/Users/ahmedhalac/Desktop/Development/TaskMagnet/task-magnet-api/TaskMagnet.Common.Dtos/TaskMagnet.Common.Dtos.csproj",
+  "projectFilePath": "/Users/ahmedhalac/Desktop/Workspace/task-magnet/task-magnet-api/TaskMagnet.Common.Dtos/TaskMagnet.Common.Dtos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
