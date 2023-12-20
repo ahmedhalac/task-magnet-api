@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskMagnet.Core.Services.Interfaces;
 using TaskMagnet.Common.Dtos.Users;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TaskMagnet.API.Controllers;
 
@@ -18,6 +19,17 @@ public class UsersController : ControllerBase
     public async Task<IActionResult> RegisterUserAsync(UserRegisterDto userRegisterDto) 
     {
         var message = await _userService.RegisterNewUserAsMessageAsync(userRegisterDto);
+        if(!message.IsValid)
+            return BadRequest();
+
+        return Ok(message);
+    }
+
+    [HttpGet("get-user")]
+    [Authorize]
+    public async Task<IActionResult> GetLoggedInUserAsync ()
+    {
+        var message = await _userService.GetLoggedInUserAsMessageAsync();
         if(!message.IsValid)
             return BadRequest();
 

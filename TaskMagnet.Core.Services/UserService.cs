@@ -1,4 +1,5 @@
 ﻿using System.Data.Common;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using TaskMagnet.Common.Dtos.Users;
 using TaskMagnet.Common.Shared;
@@ -12,13 +13,15 @@ public class UserService : IUserService
 {
     private readonly TaskMagnetDBContext _dbContext;
     private UserManager<User> _userManager;
-    public UserService(TaskMagnetDBContext dbContext, UserManager<User> userManager)
+    private readonly IHttpContextAccessor _httpContextAccessor;
+    public UserService(TaskMagnetDBContext dbContext, UserManager<User> userManager, IHttpContextAccessor httpContextAccessor)
     {
         _dbContext = dbContext;
         _userManager = userManager;
+        _httpContextAccessor = httpContextAccessor;
     }
 
-    async Task<Message> IUserService.RegisterNewUserAsMessageAsync(UserRegisterDto userRegisterDto)
+    public async Task<Message> RegisterNewUserAsMessageAsync(UserRegisterDto userRegisterDto)
     {
         var newUser = new User
         {
@@ -36,7 +39,7 @@ public class UserService : IUserService
             return new Message
             {
                 Status = ExceptionCodeEnum.Success,
-                IsValid = true
+                IsValid = false
             };
         }
         else 
@@ -46,9 +49,29 @@ public class UserService : IUserService
             {
                 Status = ExceptionCodeEnum.BadRequest,
                 Info = string.Join(", ", errorMessage),
-                IsValid = false,
+                IsValid = true,
             };
         }
         
+    }
+
+    public async Task<Message> GetLoggedInUserAsMessageAsync()
+    {
+        var user = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User);
+
+        if(user == null)
+        {
+            return new Message
+            {
+                Status = ExceptionCodeEnum.Unauthorized,
+                IsValid = false
+            };
+        }
+
+        return new Message
+        {
+            Data  = user,
+            IsValid = true
+        };
     }
 }
